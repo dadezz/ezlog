@@ -38,3 +38,14 @@ int main() {
     return 0;
 }
 ```
+
+## Output example
+```
+[2026-02-03 09:49:55]	[INF]	[main]	(\proj\main.cpp:390)	Mode: SOLVE ONLY
+[2026-02-03 09:50:02]	[ERR]	[ReadSourceWithOffsets]	(\proj\main.cpp:255)	Error reading source data (EOF or format mismatch)
+[2026-02-03 09:51:35]	[INF]	[main]	(\proj\main.cpp:390)	Mode: SOLVE ONLY
+[2026-02-03 09:52:13]	[TRA]	[RemoveBoundaryPoints]	(\proj\main.cpp:90)	Cleaning BBox detected: X[-22.610047, 78.296342]
+[2026-02-03 09:52:13]	[TRA]	[RemoveBoundaryPoints]	(\proj\main.cpp:91)	Cleaning BBox detected: Y[4.897534, 34.994043]
+[2026-02-03 09:52:13]	[TRA]	[RemoveBoundaryPoints]	(\proj\main.cpp:92)	Cleaning BBox detected: Z[-24.498014, 26.145680]
+[2026-02-03 09:52:13]	[DEB]	[RemoveBoundaryPoints]	(\proj\main.cpp:130)	BBox Clean: Removed 3058 b-points. Remaining: 1775949
+```
