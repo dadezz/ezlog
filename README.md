@@ -1,5 +1,10 @@
 # EzLogger
-Easy, lightweight, header-only, thread-safe, C++20 file logger.
+Ezlogger (easy logger): Easy, lightweight, header-only, thread-safe, C++20 file logger.
+
+![C++20](https://img.shields.io/badge/C%2B%2B-20-blue.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Header-only](https://img.shields.io/badge/header--only-yes-brightgreen.svg)
+![Thread-safe](https://img.shields.io/badge/thread--safe-yes-brightgreen.svg)
 
 Ez is a **header-only**, thread-safe, modern C++20 logger designed to be easy to drop into any project.  
 It uses `std::source_location` to automatically capture file, function, and line information without traditional macros.
